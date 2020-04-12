@@ -50,7 +50,6 @@ function setUpModeButtons(){
     }
 }
 
-
 function reset(){
     colors = generateRandomColors(numberOfSquares);
     pickedColor = pickColor();
