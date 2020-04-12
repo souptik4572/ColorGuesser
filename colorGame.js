@@ -41,7 +41,7 @@ function setUpModeButtons(){
     for(let i=0; i<modeButtons.length; i++){
         modeButtons[i].addEventListener("click", function(){
             for(let j=0; j<modeButtons.length; j++){
-                modeButtons[i].classList.remove("selected");
+                modeButtons[j].classList.remove("selected");
             }
             this.classList.add("selected");
             this.textContent === "Easy" ? numberOfSquares = 3: numberOfSquares = 6;
